@@ -42,6 +42,12 @@ export default {
 //				test: '123'
 //			});
 
+			//触发user模块的mutations和actions
+//			this.$store.commit('modifyUsername', {
+//				value: 'test user mutations'
+//			});
+			
+
 
 			//触发user模块的mutations和actions
 //			this.$store.commit('modifyUsername', {
