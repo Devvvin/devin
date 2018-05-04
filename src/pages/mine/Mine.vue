@@ -1,35 +1,42 @@
 <template>
 <page :headerConfig="headerData">
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	<h1>fdasdfasdf</h1>
-	
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
+	<h1>我是accountA呀</h1>
 </page>
 </template>
 
@@ -41,7 +48,10 @@ export default {
 			headerData: {
 				isShow: true,
 				title: '我的'
-			}
+			},
+			page: "mine",
+			hello: "hello mine",
+			id: "007"
 		}
 	}
 }
