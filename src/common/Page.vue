@@ -3,6 +3,13 @@
 	<!-- 头部 -->
 	<header class="header" v-if="headerData.isShow">
 		<span class="header-btn header-btn-left">返回</span>
+		<span class="header-btn header-btn-left">修改</span>
+		<span class="header-btn header-btn-left">是你呀</span>
+		<span class="header-btn header-btn-left">嘿嘿</span>
+		<span class="header-btn header-btn-left">嘎嘎</span>
+		<span class="header-btn header-btn-left">返回</span>
+		<span class="header-btn header-btn-left">哈哈哈</span>
+		
 		<h1 class="title">{{headerData.title}}</h1>
 	</header>
 	
@@ -11,6 +18,7 @@
 			
 			<!-- 页面内容 -->
 			<slot></slot>
+		<span class="header-btn header-btn-left">返回</span>
 			
 		</div>
 	</div>
@@ -72,12 +80,15 @@ export default {
 	text-align: center;
 	font-size: 16px;
 	color: #fff;
+	background-color: black;
+	
 }
 .page .header .header-btn{
 	position: absolute;
 	padding: 10px;
 	font-size: 12px;
 	color: #fff;
+	background-color: blanchedalmond;
 	left: 5px;
 	top: 50%;
 	transform: translateY(-50%);
@@ -90,6 +101,12 @@ export default {
 	position: absolute;
 }
 .page .content.has-header{
+	top: 44px;
+}
+.page2 .content.has-header{
+	top: 44px;
+}
+.page4 .content.has-header{
 	top: 44px;
 }
 </style>
