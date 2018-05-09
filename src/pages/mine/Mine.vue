@@ -51,6 +51,13 @@ export default {
 			},
 			page: "mine",
 			hello: "hello mine",
+			id: "007",
+			headerData: {
+				isShow: true,
+				title: '我的'
+			},
+			page: "mine",
+			hello: "hello mine",
 			id: "007"
 		}
 	}
