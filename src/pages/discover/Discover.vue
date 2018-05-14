@@ -5,7 +5,7 @@
 	<h1>我要修改你了</h1>
 	<h1>呵呵呵呵呵</h1>
 	<h1>咔咔咔</h1>
-	<h1>柔柔弱弱</h1>
+	<h1>Account分支修改了</h1>
 	
 
 </page>
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-	name: 'discover'
+	name: 'discoverAccount'
 }
 </script>
 

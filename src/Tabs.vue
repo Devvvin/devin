@@ -19,6 +19,7 @@ export default{
 				{title: '订单', icon: 'icon-order', path: '/order'},
 				{title: '我的', icon: 'icon-mine', path: '/mine'},
 				{title: '设置', icon: 'icon-setting', path: '/setting'},
+				{title: '订单', icon: 'icon-order', path: '/order'},
 				
 			]
 		}

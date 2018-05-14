@@ -11,6 +11,8 @@ new Vue({
   el: '#app',
   router,
   store,//配置全局状态管理对象
+  account,//配置全部分支【瞎扯淡】
+  
   
 //render: h=>h(App)
   

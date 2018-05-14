@@ -65,4 +65,25 @@ const store = new Vuex.Store({
 });
 
 
+const storeAccount = new Vuex.Store({
+	state,
+	getters,
+	mutations,
+	actions,
+	modules: {
+		'user': userModule
+	}
+});
+
+
+const storeAccountA = new Vuex.Store({
+	state,
+	getters,
+	mutations,
+	actions,
+	modules: {
+		'user': userModule
+	}
+});
+
 export default store;

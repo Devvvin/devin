@@ -11,7 +11,7 @@
 	
 	<button v-for="item in list" @click="selectAction(item)">{{item}}</button>
 	
-	<button @click="btnAction()">按钮</button>
+	<button @click="btnAction()">ACCOUNT按钮</button>
 
 </page>
 </template>
@@ -26,7 +26,6 @@ export default {
 	},
 	methods: {
 		btnAction(){
-//			console.log(this.$store);
 //			this.$store.state.message = 'hello world';
 		
 
@@ -69,8 +68,11 @@ export default {
 }
 </script>
 
+	<button @click="btnAction()">ACCOUNT按钮</button>
+
 <style scoped>
 .activity img{
 	width: 100%;
+	height:100%;
 }
 </style>
